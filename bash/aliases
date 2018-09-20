@@ -1,0 +1,29 @@
+# Aliases
+# =====================
+  # LS
+  alias l='ls -lah'
+
+  # Git
+  alias gcl="git clone"
+  alias gst="git status"
+  alias gl="git pull"
+  alias gp="git push"
+  alias gd="git diff | subl"
+  alias gc="git commit -v"
+  alias gca="git commit -v -a"
+  alias gb="git branch"
+  alias gba="git branch -a"
+  alias gcam="git commit -am"
+  alias gbb="git branch -b"
+  alias qa1="ssh -i ~/.ssh/id_rsa.pub sophie@qa-ironboard01.fe.flatironschool.com"
+  alias qa2="ssh -i ~/.ssh/id_rsa.pub sophie@qa-ironboard02.fe.flatironschool.com"
+  alias qa3="ssh -i ~/.ssh/id_rsa.pub sophie@qa-ironboard03.fe.flatironschool.com"
+  alias qa4="ssh -i ~/.ssh/id_rsa.pub sophie@qa-ironboard04.fe.flatironschool.com"
+  alias qa5="ssh -i ~/.ssh/id_rsa.pub sophie@qa-ironboard05.fe.flatironschool.com"
+  alias qasupport="ssh -i ~/.ssh/id_rsa.pub sophie@qa-support.fe.flatironschool.com"
+  alias learnprod="ssh -i ~/.ssh/id_rsa.pub sophie@ironboard18.fe.flatironschool.com"
+  alias staging="ssh -i ~/.ssh/id_rsa.pub sophie@ironboard16.fe.flatironschool.com"
+  alias sneakersprod6="ssh -i ~/.ssh/id_rsa.pub sophie@ironworker06.fe.flatironschool.com"
+  alias sneakersprod7="ssh -i ~/.ssh/id_rsa.pub sophie@ironworker07.fe.flatironschool.com"
+  bind "set completion-ignore-case on"
+  ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
